@@ -1,0 +1,14 @@
+﻿Console.Write("Digite um número: ");
+int numero = Convert.ToInt32(Console.ReadLine());
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine("O número é Par");
+}
+else
+{
+    Console.WriteLine("O número é Impar");
+}
+
+Console.ReadLine();
+
